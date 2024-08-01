@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إعدادات الحساب</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Settings</h1>
+        <div class="icons">
+            <div class="icon" id="profile-icon">
+                <a href="#">Profile</a>
+            </div>
+            <div class="icon" id="change-password-icon">
+                <a href="#">Change Password</a>
+            </div>
+        </div>
+        <form class="form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" value="Jonathon">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" value="Smith">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone" value="+880125412624">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" value="jhonathonsmith@gmail.com">
+            </div>
+            <!-- إضافة الزر هنا -->
+            <div class="update-button-container">
+                <button type="submit" class="update-button">Update Profile</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
